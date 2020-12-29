@@ -1,1 +1,1 @@
-# sensiblepos
+# SensiblePOS
