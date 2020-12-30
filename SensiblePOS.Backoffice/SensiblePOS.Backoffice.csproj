@@ -1,0 +1,117 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyVersion>0.8.1230.2020</AssemblyVersion>
+    <FileVersion>0.8.1229.2020</FileVersion>
+    <Company>meeSoft Co, Ltd.</Company>
+    <Authors>meeSoft Co, Ltd.</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.data.sqlclient" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SensiblePOS.Data\SensiblePOS.Data.csproj" />
+    <ProjectReference Include="..\SensiblePOS.LogIn\SensiblePOS.LogIn.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\AddPriceForm.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AddPriceForm.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\AddProductForm.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AddProductForm.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\AddPromotionForm.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AddPromotionForm.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\AddStockForm.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AddStockForm.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\AddUserForm.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AddUserForm.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\ProductForm.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ProductForm.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\PromotionForm.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PromotionForm.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\ReportForm.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ReportForm.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\SystemForm.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SystemForm.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\UserForm.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>UserForm.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\AddPriceForm.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AddPriceForm.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\AddProductForm.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AddProductForm.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\AddPromotionForm.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AddPromotionForm.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\AddStockForm.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AddStockForm.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\AddUserForm.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AddUserForm.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\ProductForm.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProductForm.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\PromotionForm.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PromotionForm.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\ReportForm.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ReportForm.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\SystemForm.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SystemForm.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\UserForm.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UserForm.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

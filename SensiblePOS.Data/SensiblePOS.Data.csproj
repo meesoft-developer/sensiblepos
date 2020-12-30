@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Company>meeSoft Co, Ltd.</Company>
+    <Authors>meeSoft Co, Ltd.</Authors>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.1230.2020</AssemblyVersion>
+    <FileVersion>1.0.1230.2020</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DefInvoiceStatus.cs" />
+    <Compile Remove="DefPromotionConditionType.cs" />
+    <Compile Remove="DefPromotionEffectiveType.cs" />
+    <Compile Remove="DefSaleType.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Company>meeSoft Co, Ltd.</Company>
+    <AssemblyVersion>1.0.1130.2020</AssemblyVersion>
+    <FileVersion>1.0.1130.2020</FileVersion>
+    <Authors>meeSoft Co, Ltd.</Authors>
+  </PropertyGroup>
+
+</Project>
